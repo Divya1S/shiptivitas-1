@@ -2,6 +2,11 @@ import React from 'react';
 import Card from './Card';
 import './Swimlane.css';
 
+const LaneStatus = {
+  IN_PROGRESS: 'in-progress',
+  COMPLETE: 'complete',
+};
+
 export default class Swimlane extends React.Component {
   render() {
     const cards = this.props.clients.map(client => {
