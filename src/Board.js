@@ -47,7 +47,6 @@ export default class Board extends React.Component {
       id: companyDetails[0],
       name: companyDetails[1],
       description: companyDetails[2],
-      status: companyDetails[3],
     }));
   }
   renderSwimlane(name, clients, ref) {
